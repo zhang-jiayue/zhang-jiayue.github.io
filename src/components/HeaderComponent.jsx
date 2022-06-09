@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Resume from '../Jiayue_s_Resume.pdf';
 
 class HeaderComponent extends Component {
   render() {
@@ -26,7 +27,7 @@ class HeaderComponent extends Component {
                 </a>
               </li>
               <li class="nav-link">
-                <a class="nav-link" href="/blogs">
+                <a class="nav-link" href={Resume}>
                   RESUME
                 </a>
               </li>

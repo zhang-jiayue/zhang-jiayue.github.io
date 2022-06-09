@@ -30,7 +30,7 @@ class PageComponent extends Component {
                     Thanks for visiting! Check out a couple posts and feel free
                     to get in touch at{' '}
                     <a class="homepage-link" href="mailto:jiayuez@my.yorku.ca">
-                      mailto:jiayuez@my.yorku.ca
+                      jiayuez@my.yorku.ca
                     </a>
                     !
                   </p>
