@@ -12,7 +12,7 @@ class HeaderComponent extends Component {
             </a>
             <ul class="navbar-nav justify-content-end">
               <li class="navbar">
-                <a class="nav-link" href="#">
+                <a class="nav-link" href="/">
                   ABOUT
                 </a>
               </li>

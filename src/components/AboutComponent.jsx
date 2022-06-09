@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import bootstrap from 'bootstrap';
 import IMG_261 from '../IMG_261.jpg';
-class PageComponent extends Component {
+class AboutComponent extends Component {
   render() {
     return (
       <div class="container mx-auto pt-5">
@@ -64,4 +64,4 @@ class PageComponent extends Component {
   }
 }
 
-export default PageComponent;
+export default AboutComponent;
