@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import bootstrap from 'bootstrap';
+import bootstrap from '../bootstrap.css';
 import IMG_261 from '../IMG_261.jpg';
 class AboutComponent extends Component {
   render() {

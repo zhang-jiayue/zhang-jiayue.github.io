@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import image from '../letter-j.png';
-import bootstrap from 'bootstrap';
+import bootstrap from '../bootstrap.css';
 class Card extends Component {
   render() {
     return (
