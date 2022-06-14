@@ -22,8 +22,8 @@ class HeaderComponent extends Component {
                 </a>
               </li>
               <li class="nav-link">
-                <a class="nav-link" href="/blogs">
-                  BLOG
+                <a class="nav-link" href="/posts">
+                  POSTS
                 </a>
               </li>
               <li class="nav-link">

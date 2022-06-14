@@ -15,7 +15,7 @@ class Website extends Component {
             <Routes>
               <Route path="/" element={<AboutComponent />} />
               <Route path="/projects" element={<ProjectsComponent />} />
-              <Route path="/blog" element={<div></div>} />
+              <Route path="/posts" element={<div></div>} />
             </Routes>
           </Router>
           <main class="Site-content"></main>
