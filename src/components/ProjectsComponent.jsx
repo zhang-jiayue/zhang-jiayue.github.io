@@ -6,7 +6,7 @@ class ProjectsComponent extends Component {
       <div class="container mx-auto pt-5">
         <div class="row row-cols-3 row-cols-md-3 g-5">
           <div class="col-sm">
-            <Card />
+            <Card description="Personal Website" title="Personal Website" />
           </div>
           <div class="col-sm">
             <Card />

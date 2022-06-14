@@ -2,6 +2,15 @@ import React, { Component } from 'react';
 import image from '../letter-j.png';
 import bootstrap from '../bootstrap.css';
 class Card extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      description: '',
+      title: '',
+      badges: [],
+      url: '',
+    };
+  }
   render() {
     return (
       <div class="card">
@@ -16,11 +25,14 @@ class Card extends Component {
           <h5 class="card-title">Project title</h5>
           <h6 class="card-subtitle mb-2 text-muted">Tech stack tags go here</h6>
           <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content. Project description.
+            <h1>{this.state.description}</h1>
           </p>
-          <button type="button" class="btn btn-outline-primary">
-            Visit
+          <button
+            type="button"
+            class="btn btn-outline-primary"
+            href={this.state.url}
+          >
+            Visit Github Repo
           </button>
         </div>
       </div>
