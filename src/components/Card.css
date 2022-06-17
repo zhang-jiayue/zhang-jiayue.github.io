@@ -13,10 +13,6 @@
   --bs-btn-active-border-color: #{shade-color($bd-violet, 20%)};
 }
 
-.card-text {
-  font-size: 20px;
-}
 .card {
-  height: 540px;
   font-family: sans-serif;
 }

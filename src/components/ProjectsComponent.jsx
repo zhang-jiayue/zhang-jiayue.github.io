@@ -20,11 +20,33 @@ class ProjectsComponent extends Component {
             />
           </div>
           <div class="col-sm">
-            <Card />
+            <Card
+              description="React web application"
+              title="HackerNews"
+              url="https://github.com/zhang-jiayue/hackernews"
+            />
           </div>
-          {/* <div class="col-sm">
-            <Card />
-          </div> */}
+          <div class="col-sm">
+            <Card
+              description="React web application"
+              title="Todo List"
+              url="https://github.com/zhang-jiayue/Todo-App"
+            />
+          </div>
+          <div class="col-sm">
+            <Card
+              description="React web application"
+              title="BearMaps"
+              url="https://github.com/zhang-jiayue/cs61b-sp19/tree/master/proj3"
+            />
+          </div>
+          <div class="col-sm">
+            <Card
+              description="React web application"
+              title="OS Resource Allocation"
+              url="https://github.com/zhang-jiayue/Resource-Allocation"
+            />
+          </div>
         </div>
       </div>
     );

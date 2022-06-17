@@ -15,7 +15,7 @@ class Card extends Component {
   }
   render() {
     return (
-      <div class="card">
+      <div class="card h-100">
         <img
           src={image}
           class="card-img-top"
@@ -27,7 +27,7 @@ class Card extends Component {
           <h5 class="card-title">{this.props.title}</h5>
           <h6 class="card-subtitle mb-2 text-muted">Tech stack tags go here</h6>
           <p class="card-text">
-            <h1>{this.props.description}</h1>
+            <p>{this.props.description}</p>
           </p>
           <a
             type="button"
