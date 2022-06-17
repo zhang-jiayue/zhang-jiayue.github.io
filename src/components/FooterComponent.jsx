@@ -13,9 +13,7 @@ class FooterComponent extends Component {
                 {/* <use xlink:href="#bootstrap"></use> */}
               </svg>
             </a>
-            <span className="mb-3 mb-md-0 text-muted">
-              Copyright © 2022 Jiayue Zhang
-            </span>
+            <span className="mb-3 mb-md-0 text-muted">© 2022 Jiayue Zhang</span>
           </div>
           <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
             <li className="ms-3">

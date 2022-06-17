@@ -39,26 +39,6 @@ class AboutComponent extends Component {
             </div>
           </div>
         </div>
-        {/* <div></div>
-        <div
-          class="main-container home-container"
-          style={{ 'padding-bottom': '100px' }}
-        >
-          <main id="body-fade">
-            <p class="post-title">👋 Hello!</p>
-            <p class="post-title">
-              I'm Jiayue. Currently a 3rd year CS student at York University.
-            </p>
-            <p class="post-title">
-              Thanks for visiting! Check out a couple posts and feel free to get
-              in touch at{' '}
-              <a class="homepage-link" href="mailto:jiayuez@my.yorku.ca">
-                mailto:jiayuez@my.yorku.ca
-              </a>
-              !
-            </p>
-          </main>
-        </div> */}
       </div>
     );
   }
