@@ -14,13 +14,17 @@ class Card extends Component {
       url: '',
     };
   }
+
   render() {
+    const listItems = this.props.tags.map((tag) => (
+      <span className="badge bg-dark">{tag}</span>
+    ));
     return (
-      <div class="card h-100">
+      <div className="card h-100">
         {this.props.image === null ? (
           <img
             src={image}
-            class="card-img-top"
+            className="card-img-top"
             alt=""
             width="200"
             height="260"
@@ -28,24 +32,23 @@ class Card extends Component {
         ) : (
           <img
             src={this.props.img}
-            class="card-img-top"
+            className="card-img-top"
             alt=""
             width="200"
             height="260"
           ></img>
         )}
-        <div class="card-body">
-          <h5 class="card-title">{this.props.title}</h5>
-          <h6 class="card-subtitle mb-2 text-muted">
-            <span class="badge bg-dark">React</span>
-            Tech stack tags go here
+        <div className="card-body">
+          <h5 className="card-title">{this.props.title}</h5>
+          <h6 className="card-subtitle mb-2 text-muted">
+            <span>{listItems}</span>
           </h6>
-          <p class="card-text">
+          <div className="card-text">
             <p>{this.props.description}</p>
-          </p>
+          </div>
           <a
             type="button"
-            class="btn btn-outline-primary"
+            className="btn btn-outline-primary"
             href={this.props.url}
           >
             Live Demo
