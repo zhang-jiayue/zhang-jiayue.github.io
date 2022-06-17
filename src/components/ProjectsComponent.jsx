@@ -23,7 +23,7 @@ class ProjectsComponent extends Component {
             <Card
               description="Web application Using Axios to fetch trending stories from third party API with React as the front-end"
               title="HackerNews"
-              url="https://github.com/zhang-jiayue/hackernews"
+              url="https://master.dryn0v1rcl6yk.amplifyapp.com/"
             />
           </div>
           <div class="col-sm">
