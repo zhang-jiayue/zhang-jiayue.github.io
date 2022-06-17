@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import bootstrap from '../bootstrap.css';
+import about from './AboutComponent.css';
 import IMG_261 from '../IMG_261.jpg';
 class AboutComponent extends Component {
   render() {
     return (
-      <div class="container mx-auto pt-5">
+      <div class="container mx-auto pt-5 about">
         <div class="d-grid gap-4">
           <div class="row justify-content-md-center">
             <div class="col-md-auto">
