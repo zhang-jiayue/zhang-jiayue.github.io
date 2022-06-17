@@ -16,3 +16,7 @@
 .card-text {
   font-size: 20px;
 }
+.card {
+  height: 540px;
+  font-family: sans-serif;
+}
