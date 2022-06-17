@@ -17,7 +17,7 @@ class Card extends Component {
 
   render() {
     const listItems = this.props.tags.map((tag) => (
-      <span className="badge bg-dark">{tag}</span>
+      <span className="badge bg-secondary">{tag}</span>
     ));
     return (
       <div className="card h-100">
@@ -39,7 +39,7 @@ class Card extends Component {
           ></img>
         )}
         <div className="card-body">
-          <h5 className="card-title">{this.props.title}</h5>
+          <h5 className="card-title ">{this.props.title}</h5>
           <h6 className="card-subtitle mb-2 text-muted">
             <span>{listItems}</span>
           </h6>
