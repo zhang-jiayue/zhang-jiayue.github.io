@@ -21,28 +21,28 @@ class ProjectsComponent extends Component {
           </div>
           <div class="col-sm">
             <Card
-              description="React web application"
+              description="Web application Using Axios to fetch trending stories from third party API with React as the front-end"
               title="HackerNews"
               url="https://github.com/zhang-jiayue/hackernews"
             />
           </div>
           <div class="col-sm">
             <Card
-              description="React web application"
+              description="full-stack web app with Spring Boot as back-end and React as front-end"
               title="Todo List"
               url="https://github.com/zhang-jiayue/Todo-App"
             />
           </div>
           <div class="col-sm">
             <Card
-              description="React web application"
+              description="Developed algorithms for a web application’s back-end which is similar to Google Maps"
               title="BearMaps"
               url="https://github.com/zhang-jiayue/cs61b-sp19/tree/master/proj3"
             />
           </div>
           <div class="col-sm">
             <Card
-              description="React web application"
+              description="Simulated resource allocation with First Come First Serve and Banker’s algorithms"
               title="OS Resource Allocation"
               url="https://github.com/zhang-jiayue/Resource-Allocation"
             />
