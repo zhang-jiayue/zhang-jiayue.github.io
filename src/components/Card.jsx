@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import image from '../letter-j.png';
 import bootstrap from '../bootstrap.css';
+import card from './Card.css';
+
 class Card extends Component {
   constructor(props) {
     super(props);
@@ -22,18 +24,18 @@ class Card extends Component {
           height="200"
         ></img>
         <div class="card-body">
-          <h5 class="card-title">Project title</h5>
+          <h5 class="card-title">{this.props.title}</h5>
           <h6 class="card-subtitle mb-2 text-muted">Tech stack tags go here</h6>
           <p class="card-text">
-            <h1>{this.state.description}</h1>
+            <h1>{this.props.description}</h1>
           </p>
-          <button
+          <a
             type="button"
             class="btn btn-outline-primary"
-            href={this.state.url}
+            href={this.props.url}
           >
-            Visit Github Repo
-          </button>
+            Live Demo
+          </a>
         </div>
       </div>
     );

@@ -6,10 +6,18 @@ class ProjectsComponent extends Component {
       <div class="container mx-auto pt-5">
         <div class="row row-cols-3 row-cols-md-3 g-5">
           <div class="col-sm">
-            <Card description="Personal Website" title="Personal Website" />
+            <Card
+              description="Single-page web app written with React and Bootstrap 5"
+              title="Personal Website"
+              url="http://jiayue.me"
+            />
           </div>
           <div class="col-sm">
-            <Card />
+            <Card
+              description="Currency converter written in JavaScript"
+              title="Currency Converter"
+              url="https://zhang-jiayue.github.io/js-currency-converter/"
+            />
           </div>
           <div class="col-sm">
             <Card />
