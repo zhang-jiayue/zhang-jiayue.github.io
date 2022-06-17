@@ -12,7 +12,7 @@
   --bs-btn-active-bg: #{shade-color($bd-violet, 20%)};
   --bs-btn-active-border-color: #{shade-color($bd-violet, 20%)};
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Joan&family=Roboto:wght@300&display=swap');
 .card {
-  font-family: sans-serif;
+  font-family: 'Roboto', serif;
 }
