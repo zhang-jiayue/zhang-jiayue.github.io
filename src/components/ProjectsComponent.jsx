@@ -3,6 +3,7 @@ import Card from './Card';
 import website from '../website.jpg';
 import news from '../news.jpg';
 import converter from '../converter.png';
+import todo from '../todo.jpg';
 class ProjectsComponent extends Component {
   render() {
     return (
@@ -38,7 +39,7 @@ class ProjectsComponent extends Component {
           <div className="col-sm">
             <Card
               tags={['Java', 'Spring Boot', 'React', 'Bootstrap', 'Javascript']}
-              img={null}
+              img={todo}
               description="full-stack web app with Spring Boot as back-end and React as front-end"
               title="Todo List"
               url="https://github.com/zhang-jiayue/Todo-App"
