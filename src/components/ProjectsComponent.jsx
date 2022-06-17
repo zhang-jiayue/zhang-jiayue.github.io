@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import Card from './Card';
+import website from '../website.jpg';
+import news from '../news.jpg';
+import converter from '../converter.png';
 class ProjectsComponent extends Component {
   render() {
     return (
@@ -7,6 +10,7 @@ class ProjectsComponent extends Component {
         <div class="row row-cols-3 row-cols-md-3 g-5">
           <div class="col-sm">
             <Card
+              img={website}
               description="Single-page web app written with React and Bootstrap 5"
               title="Personal Website"
               url="http://jiayue.me"
@@ -14,6 +18,7 @@ class ProjectsComponent extends Component {
           </div>
           <div class="col-sm">
             <Card
+              img={converter}
               description="Currency converter written in JavaScript"
               title="Currency Converter"
               url="https://zhang-jiayue.github.io/js-currency-converter/"
@@ -21,6 +26,7 @@ class ProjectsComponent extends Component {
           </div>
           <div class="col-sm">
             <Card
+              img={news}
               description="Web application Using Axios to fetch trending stories from third party API with React as the front-end"
               title="HackerNews"
               url="https://master.dryn0v1rcl6yk.amplifyapp.com/"
@@ -28,6 +34,7 @@ class ProjectsComponent extends Component {
           </div>
           <div class="col-sm">
             <Card
+              img={null}
               description="full-stack web app with Spring Boot as back-end and React as front-end"
               title="Todo List"
               url="https://github.com/zhang-jiayue/Todo-App"
