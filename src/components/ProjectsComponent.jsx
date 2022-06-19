@@ -4,6 +4,7 @@ import website from '../website.jpg';
 import news from '../news.jpg';
 import converter from '../converter.png';
 import todo from '../todo.jpg';
+import banker from '../banker.png';
 class ProjectsComponent extends Component {
   render() {
     return (
@@ -47,6 +48,7 @@ class ProjectsComponent extends Component {
           </div>
           <div className="col-sm">
             <Card
+              img={null}
               tags={['Java', 'JUnit', 'Spark']}
               description="Developed algorithms for a web application’s back-end which is similar to Google Maps"
               title="BearMaps"
@@ -55,6 +57,7 @@ class ProjectsComponent extends Component {
           </div>
           <div className="col-sm">
             <Card
+              img={banker}
               tags={['C', 'gdb', 'Linux commands']}
               description="Simulated resource allocation with First Come First Serve and Banker’s algorithms"
               title="OS Resource Allocation"
