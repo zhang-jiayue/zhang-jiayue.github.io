@@ -41,9 +41,9 @@ class ProjectsComponent extends Component {
             <Card
               tags={['Java', 'Spring Boot', 'React', 'Bootstrap', 'Javascript']}
               img={todo}
-              description="full-stack web app with Spring Boot as back-end and React as front-end"
+              description="full-stack web app with Spring Boot as back-end and React as front-end. Please use username jiayue and password dummy"
               title="Todo List"
-              url="https://github.com/zhang-jiayue/Todo-App"
+              url="https://main.d3pr1j4jua1mot.amplifyapp.com"
             />
           </div>
           <div className="col-sm">
