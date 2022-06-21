@@ -57,7 +57,6 @@ class ProjectsComponent extends Component {
           </div>
           <div className="col-sm">
             <Card
-              img={banker}
               tags={['C', 'gdb', 'Linux commands']}
               description="Simulated resource allocation with First Come First Serve and Banker’s algorithms"
               title="OS Resource Allocation"
