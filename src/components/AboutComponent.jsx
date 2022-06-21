@@ -8,15 +8,7 @@ class AboutComponent extends Component {
         <div class="d-grid gap-4">
           <div class="row justify-content-md-center">
             <div class="col-md-auto">
-              <div class="prof-img">
-                <img
-                  src={IMG_261}
-                  class="rounded mx-auto d-block"
-                  alt="Img"
-                  width="280"
-                  height="280"
-                ></img>
-              </div>
+              <div class="prof-img"></div>
             </div>
             <div class="col-md-auto">
               <div class="main-container home-container">
